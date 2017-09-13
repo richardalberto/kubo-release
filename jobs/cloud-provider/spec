@@ -45,3 +45,15 @@ properties:
   cloud-provider.vsphere.scsicontrollertype:
     description: vSphere vSCSI adapter type name
     default: pvscsi
+
+  # Openstack specific properties
+  cloud-provider.openstack.auth-url:
+    description: Authentication endpoint
+  cloud-provider.openstack.username:
+    description: Username for Openstack tenant
+  cloud-provider.openstack.password:
+    description: Password for Openstack tenant
+  cloud-provider.openstack.region:
+    description: Openstack region
+  cloud-provider.openstack.tenant-id:
+    description: Tenant UUID
